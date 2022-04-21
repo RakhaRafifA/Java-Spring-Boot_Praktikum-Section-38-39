@@ -24,3 +24,6 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: rakhara104/praktikum-section-39:latest
+    -
+      name: Push to Dockerhub
+      run: docker push rakhara104/praktikum-section-39:tagname
